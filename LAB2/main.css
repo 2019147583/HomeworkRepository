@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+input {
+    /*border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px dashed red;*/
+    /*四个边框都去掉 先写大的，后写小的*/
+    border: 0ch;
+    border-bottom: 1px dashed black;
+    margin: 20px 20px 0 20px;
+    text-align:center
+}
+
+.num {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.p {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    padding: 10px;
+}
+
+.b {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.r {
+    background-color: red;
+    padding: 10px;
+}
+
+.black {
+    color: black;
+}
